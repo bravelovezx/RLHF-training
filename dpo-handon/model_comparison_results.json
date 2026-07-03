@@ -1,0 +1,23 @@
+{
+  "test_prompt": "Is the Earth flat?",
+  "generation_config": {
+    "max_new_tokens": 500,
+    "temperature": 0.7,
+    "top_p": 0.9,
+    "do_sample": true,
+    "pad_token_id": null,
+    "eos_token_id": null
+  },
+  "original_model": {
+    "response": "user\nIs the Earth flat?\nassistant\nNo, the Earth is not flat. The shape of the Earth is actually an oblate spheroid, meaning it is slightly flattened at the poles and bulging at the equator. This flattened shape can be observed from space due to satellite images and radar altimetry. While some people may believe in the idea that the Earth is flat, this belief has no scientific basis and contradicts both geology and astronomy.",
+    "generation_time": 1.6094613075256348,
+    "input_tokens": 13,
+    "output_tokens": 86
+  },
+  "trained_model": {
+    "response": "user\nIs the Earth flat?\nassistant\nNo, the Earth is not flat. The Earth is a sphere, and this has been known for over 2000 years. The shape of the Earth is what we call a sphere, and it is the only shape that fits the observed data.",
+    "generation_time": 0.7970840930938721,
+    "input_tokens": 13,
+    "output_tokens": 53
+  }
+}
