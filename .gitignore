@@ -38,3 +38,15 @@ logs/
 
 # 环境变量
 .env
+
+# PPO项目相关模型/数据目录
+**/distilbert/
+**/imdb/
+**/qwen_ppo_sentiment_final/
+
+# 补充通配规则(以防后续PPO/GRPO/DAPO还有类似命名的训练产出目录)
+**/*_final/
+**/*_checkpoint/
+**/*.parquet
+**/*.onnx
+**/*.h5
